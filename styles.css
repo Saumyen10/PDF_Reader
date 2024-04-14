@@ -1,0 +1,97 @@
+body{
+  display: grid;
+  place-content: center;
+  background-color: #2c3e50;
+  align-items: center;
+}
+/*
+
+.btn-warning{
+    position: relative;
+    align-items: center;
+    padding: 11px 16px;
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgb(255, 102, 0);
+    transition: 0.2s;
+    overflow: hidden; 
+    box-shadow: 1px 1px 10px 2px black;
+
+
+}
+  
+.btn-warning input[type = "file"]{
+    cursor: pointer;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    transform: scale(3);
+    opacity: 0;
+  }
+  
+  .btn-warning:hover{
+    background-color: #096fff;
+    transform: scale(1.2);     
+  }
+  */
+
+  .upload {
+    position: relative;
+    padding-top: 40vh;
+  }
+
+  .upload-box{
+      position: relative;
+      padding: 11px 16px;
+      font-size: 20px;
+      line-height: 1.5;
+      border-radius: 25px;
+      color: #fff;
+      background-color: rgb(255, 102, 0);
+      transition: 0.2s;
+      overflow: hidden; 
+      box-shadow: 1px 1px 10px 2px black;
+
+  }
+
+  .upload-box:hover{
+    background-color: #096fff;
+    transform: scale(1.2);      /* button size inc. when hovered */
+  }
+
+  .cv {
+    font-size: 35px;
+    padding: 10px 10px 20px 100px;
+    position: relative;
+    display: grid;
+  }
+
+  .submit
+  {
+    display: flex;
+    font-size: 20px;
+    margin: 30px 30px 30px 150px;
+    border-radius: 5px;
+  }
+
+  .button-download {
+    display: flex;
+    align-self: center;
+    position: relative;
+    padding: 11px 16px;
+    font-size: 20px;
+    line-height: 1.5;
+    border-radius: 25px;
+    color: #fff;
+    background-color: rgb(255, 102, 0);
+    transition: 0.2s;
+    overflow: hidden; 
+    box-shadow: 1px 1px 10px 2px black;
+  }
+
+  .button-download:hover{
+    background-color: #096fff;
+    transform: scale(1.2);      /* button size inc. when hovered */
+  }
