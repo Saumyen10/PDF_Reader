@@ -17,7 +17,7 @@ def extract_contacts(cv_text):
     
     return {"Emails": emails, "Phone Numbers": phone_numbers}
 
-pdf_file = PyPDF2.PdfReader("SPD_resume.pdf")
+pdf_file = PyPDF2.PdfReader("")  #PDF File name
 cv_text=""
 
 for page_number in range(len(pdf_file.pages)):
@@ -44,6 +44,6 @@ phone_numbers += [""] * (max_length - len(phone_numbers))
 
 # Save extracted contacts to an Excel file
 df = pd.DataFrame({"Emails": emails, "Phone Numbers": phone_numbers})
-df.to_excel("yo.xlsx", index=False)
+df.to_excel("contacts.xlsx", index=False)
 
 print("Extracted contacts saved to contacts.xlsx")
